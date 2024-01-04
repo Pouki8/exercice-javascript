@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Mon site web</h1>
+    <div>
+    <h2>Addition</h2>
+    <p>Prix article 1 <input type="number" class="article1"></p>
+    <p>Prix article 2 <input type="number" class="article2"></p>
+    <button class="addition">Calculer</button>
+    <p>Coût du panier : <output type="number" class="result"></output></p>
+    </div>
+    <div>*******************************************************************************</div>
+    <div>
+        <h2>Soustraction</h2>
+        <p>Nombre de produits en stock initial : <input type="number" class="stockInitial"></p>
+        <p>Nombre de produits vendus : <input type="number" class="produitVendu"></p>
+        <button class="soustraction">Calculer</button>
+        <p>Nombre de produits restant : <output type="number" class="soustraire"></output>
+        </p>
+    </div>
+    <div>******************************************************************************</div>
+    <div>
+        <h2>Multiplication</h2>
+        <p>Prix du produit : <input type="number" class="prixProduit"></p>
+        <p>Nombre de produits : <input type="number" class="nombreDeProduit"></p>
+        <button class="multiplication">Calculer</button>
+        <p>Montant total : <output type="number" class="multiplier"></output></p>
+    </div>
+    <div>******************************************************************************</div>
+    <div>
+        <h2>Conversion en francs</h2>
+        <p>Montant en Euros : <input type="number" class="montantEuros"> Euros vaut <output type="number" class="montantFrancs"></output></p>
+        <button class="conversion">Conversion</button>
+        <p></p>
+    </div>
+    <div>******************************************************************************</div>
+        <div>
+        <h2>Convertisseur de Devises</h2>
+        <p>Montant en euros : <input type="number" id="montantEuros"></p>
+        <p>Taux de change : <input type="number" id="tauxChange"></p>
+        <button onclick="convertirDevise()">Convertir</button>
+        <p>Montant équivalent dans l'autre devise : <output class="montantDevise"></output></p>
+    </div>
+    <div>******************************************************************************</div>
+    <div>
+        <h2>Pair ou impair</h2>
+        <p>Saisir un nombre <input type="number" class="nombrePairOuPas"></p>
+        <button onclick="verifierPairImpair()">Vérifier</button>
+        <p><output type="text" class="pairOuImpair"></output></p>
+    </div>
+    <div>******************************************************************************</div>
+    <div>
+        <h2>Entrez votre nom et prénom</h2>
+        <p>Quel est votre prénom : <input type="text" class="prenom"></p>
+        <p>Quel est votre nom : <input type="text" class="nom"></p>
+        <button onclick="AfficherName()">Valider</button>
+        <p><output type="text" class="nameLastname"></output></p>
+    </div>
+    <div>******************************************************************************</div>
+</body>
+</html>
